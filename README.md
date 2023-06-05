@@ -91,6 +91,7 @@ I used a relational database to create the data structure for a vet clinic. I st
 - **Create Table**
 - **Query Table**
 - **Insert data in table**
+- **Use Rollback, Savepoint, and commit**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -163,8 +164,8 @@ Not yet deployed ...
 <!-- FUTURE FEATURES -->
 
 ## :telescope: Future Features <a name="future-features"></a><br/>
-- [ ] **Adding Behaviors**<br/>
-- [ ] **Making it stylish**
+- [ ] **Adding multip databases**<br/>
+- [ ] **Add more operations**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- CONTRIBUTING -->
 

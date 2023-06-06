@@ -20,19 +20,26 @@ select * from animals where weight_kg>=10.4 AND weight_kg<=17.3;
 -- starting a transaction and update animal table by setting the species column to unspecified and rollback.
 BEGIN;
 UPDATE animals SET species = 'unspecified';
+SELECT species FROM animals;
 ROLLBACK;
+SELECT species FROM animals;
 
 -- Update the animals table by setting the species column to digimon for all animals that have a name ending in mon.
 BEGIN;
 UPDATE animals SET species = 'digimon' WHERE name LIKE '%mon';
 -- Update the animals table by setting the species column to pokemon for all animals that don't have species already set.
 UPDATE animals SET species = 'pokemon' WHERE species = '';
+SELECT species FROM animals WHERE species = '';
 -- Commit the transaction.
 COMMIT;
+SELECT species FROM animals;
+
 -- Inside a transaction delete all records in the animals table, then roll back the transaction.
 BEGIN;
 DELETE FROM animals;
+SELECT * FROM animals;
 ROLLBACK;
+SELECT * FROM animals;
 
 -- STARTNG A TRANSACTION:
 BEGIN;
@@ -45,7 +52,7 @@ UPDATE animals SET weight_kg = weight_kg * -1;
 -- Rollback to the savepoint
 ROLLBACK TO SAVEPOINT savepoint_1;
 -- Update all animals' weights that are negative to be their weight multiplied by -1.
-UPDATE animals SET weight_kg = weight_kg * -1 WHERE weight_kg < 1;
+UPDATE animals SET weight_kg = weight_kg * -1 WHERE weight_kg < 0;
 -- Commit transaction
 COMMIT;
 

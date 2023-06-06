@@ -1,33 +1,6 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="./icon_head.jpg" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Vet-clinic-database</b></h3>
@@ -42,7 +15,6 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
   - [🦻 Walkthrough  Video](#walkthrough-demo)
 - [💻 Getting Started](#getting-started)
   - [Deployment](#triangular_flag_on_post-deployment)
@@ -91,14 +63,7 @@ I used a relational database to create the data structure for a vet clinic. I st
 - **Create Table**
 - **Query Table**
 - **Insert data in table**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
--  Comming Soon...
+- **Use Rollback, Savepoint, and commit**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -124,33 +89,13 @@ In order to run this project you need:
 - pgAdmin.
 - GitHub Account.
 
-<!--
-Example command:
-```sh
- gem install rails
-```
- -->
 ### Setup
 
 Clone this repository to your desired folder:
 Use git clone command or download ZIP folder
 
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:KUBAHO3/Hello-Microverse.git
-```
---->
-
 ### Deployment
-<!-- You can deploy this project using:
-GitHub Pages
-Example:
-```sh
-git@github.com:KUBAHO3/Sharing-World.git
-``` -->
+
 Not yet deployed ...
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -163,8 +108,8 @@ Not yet deployed ...
 <!-- FUTURE FEATURES -->
 
 ## :telescope: Future Features <a name="future-features"></a><br/>
-- [ ] **Adding Behaviors**<br/>
-- [ ] **Making it stylish**
+- [ ] **Adding multip databases**<br/>
+- [ ] **Add more operations**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- CONTRIBUTING -->
 

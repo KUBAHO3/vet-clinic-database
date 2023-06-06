@@ -1,4 +1,5 @@
 /* Database schema to keep the structure of entire database. */
+CREATE DATABASE vet_clinic;
 
 CREATE TABLE animals(
 	id BIGSERIAL NOT NULL PRIMARY KEY,
@@ -8,3 +9,6 @@ CREATE TABLE animals(
 	neutered BOOLEAN, 
 	weight_kg DECIMAL
 );
+
+--Adding new colum to the table
+ALTER TABLE animals ADD COLUMN species VARCHAR;

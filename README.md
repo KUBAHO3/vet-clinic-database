@@ -27,7 +27,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="./icon_head.jpg" alt="logo" width="140"  height="auto" />
+  <!-- <img src="./icon_head.jpg" alt="logo" width="140"  height="auto" /> -->
   <br/>
 
   <h3><b>Vet-clinic-database</b></h3>
@@ -42,7 +42,6 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
   - [🦻 Walkthrough  Video](#walkthrough-demo)
 - [💻 Getting Started](#getting-started)
   - [Deployment](#triangular_flag_on_post-deployment)
@@ -92,14 +91,6 @@ I used a relational database to create the data structure for a vet clinic. I st
 - **Query Table**
 - **Insert data in table**
 - **Use Rollback, Savepoint, and commit**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
--  Comming Soon...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

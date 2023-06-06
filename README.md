@@ -1,33 +1,6 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <!-- <img src="./icon_head.jpg" alt="logo" width="140"  height="auto" /> -->
   <br/>
 
   <h3><b>Vet-clinic-database</b></h3>
@@ -116,33 +89,13 @@ In order to run this project you need:
 - pgAdmin.
 - GitHub Account.
 
-<!--
-Example command:
-```sh
- gem install rails
-```
- -->
 ### Setup
 
 Clone this repository to your desired folder:
 Use git clone command or download ZIP folder
 
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:KUBAHO3/Hello-Microverse.git
-```
---->
-
 ### Deployment
-<!-- You can deploy this project using:
-GitHub Pages
-Example:
-```sh
-git@github.com:KUBAHO3/Sharing-World.git
-``` -->
+
 Not yet deployed ...
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

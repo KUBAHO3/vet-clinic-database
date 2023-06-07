@@ -30,3 +30,6 @@ UPDATE animals SET owner_id = (SELECT id FROM owners WHERE full_name = 'Dean Win
 
 -- Insert the following data for vets:
 INSERT INTO vets(name,age,date_of_graduation) values('William Tatcher',45,'2000-04-23'),('Maisy Smith',26,'2019-01-17'),('Stephanie Mendez',45,'1981-05-04'),('Jack Harkness',38,'2008-06-08');
+
+-- Insert the following data for specialties:
+INSERT INTO specializations(vets_name,species_name) values('William Tatcher','Pokemon'),('Stephanie Mendez','Digimon,Pokemon'),('Jack Harkness','Digimon');

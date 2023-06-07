@@ -40,3 +40,11 @@ CREATE TABLE vets(
   date_of_graduation date
   );
 
+-- Create a table named specialization.
+CREATE TABLE specializations(
+  id SERIAL PRIMARY KEY NOT NULL,
+  vets_name VARCHAR(255), 
+  species_name VARCHAR(255),
+  species_id int,
+  vet_id int
+  );

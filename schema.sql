@@ -12,3 +12,22 @@ CREATE TABLE animals(
 
 --Adding new colum to the table
 ALTER TABLE animals ADD COLUMN species VARCHAR;
+
+-- Create owners table 
+CREATE TABLE owners (
+ id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+ full_name VARCHAR(50),
+ age INT
+);
+
+-- Create species table 
+CREATE TABLE species (
+ id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY ,
+ name VARCHAR(50)
+);
+
+-- Modify the animals table
+ALTER SEQUENCE animals_id_seq RESTART WITH 1;
+ALTER TABLE animals DROP COLUMN species;
+ALTER TABLE animals ADD COLUMN species_id BIGINT REFERENCES species (id);
+ALTER TABLE animals ADD COLUMN owner_id BIGINT REFERENCES owners (id);

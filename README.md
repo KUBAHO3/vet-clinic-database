@@ -62,6 +62,7 @@ I used a relational database to create the data structure for a vet clinic. I st
 - **Create Database**
 - **Create Table**
 - **Query Table**
+- **join Tables**
 - **Insert data in table**
 - **Use Rollback, Savepoint, and commit**
 

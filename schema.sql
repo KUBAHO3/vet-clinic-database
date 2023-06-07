@@ -48,3 +48,13 @@ CREATE TABLE specializations(
   species_id int,
   vet_id int
   );
+
+-- Create a table named visits.
+CREATE TABLE visits(
+  id SERIAL PRIMARY KEY NOT NULL,
+  animals_name VARCHAR(255), 
+  vets_name VARCHAR(255), 
+  date_of_visit date,
+  animal_name int,
+  vet_id int
+  );

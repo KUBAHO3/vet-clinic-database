@@ -13,3 +13,6 @@ INSERT INTO animals(id, name, date_of_birth, escape_attempts, neutered, weight_k
 
 -- Insering data in owners table
 INSERT INTO owners (id, full_name, age) VALUES (DEFAULT, 'Sam Smith', 34), (DEFAULT, 'Jennifer Orwell', 19), (DEFAULT, 'Melody Pond', 45), (DEFAULT, 'Dean Winchester', 14), (DEFAULT, 'Jodie Whittaker', 38), (DEFAULT, 'Bob', 45);
+
+-- Inserting data into species table
+INSERT INTO species (id, name) VALUES (DEFAULT, 'Pokemon'), (DEFAULT, 'Digimon');

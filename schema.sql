@@ -31,3 +31,12 @@ ALTER SEQUENCE animals_id_seq RESTART WITH 1;
 ALTER TABLE animals DROP COLUMN species;
 ALTER TABLE animals ADD COLUMN species_id BIGINT REFERENCES species (id);
 ALTER TABLE animals ADD COLUMN owner_id BIGINT REFERENCES owners (id);
+
+-- Create a table named vets
+CREATE TABLE vets(
+  id SERIAL PRIMARY KEY NOT NULL,
+  name VARCHAR(255), 
+  age INT, 
+  date_of_graduation date
+  );
+

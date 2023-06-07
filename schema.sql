@@ -22,6 +22,12 @@ CREATE TABLE owners (
 
 -- Create species table 
 CREATE TABLE species (
- id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+ id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY ,
  name VARCHAR(50)
 );
+
+-- Modify the animals table
+ALTER SEQUENCE animals_id_seq RESTART WITH 1;
+ALTER TABLE animals DROP COLUMN species;
+ALTER TABLE animals ADD COLUMN species_id BIGINT REFERENCES species (id);
+ALTER TABLE animals ADD COLUMN owner_id BIGINT REFERENCES owners (id);

@@ -16,3 +16,7 @@ INSERT INTO owners (id, full_name, age) VALUES (DEFAULT, 'Sam Smith', 34), (DEFA
 
 -- Inserting data into species table
 INSERT INTO species (id, name) VALUES (DEFAULT, 'Pokemon'), (DEFAULT, 'Digimon');
+
+-- Update animals Table. 
+UPDATE animals SET species_id = (SELECT id FROM species WHERE name = 'Digimon') WHERE name LIKE '%mon';
+UPDATE animals SET species_id = (SELECT id FROM species WHERE name = 'Pokemon') WHERE name NOT LIKE '%mon';

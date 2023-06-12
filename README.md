@@ -11,20 +11,23 @@
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🦻 Walkthrough  Video](#walkthrough-demo)
-- [💻 Getting Started](#getting-started)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Vet-clinic-database ](#-vet-clinic-database-)
+  - [:hammer\_and\_wrench: Built With ](#hammer_and_wrench-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🦻 WalkThrough Video ](#-walkthrough-video-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Deployment](#deployment)
+  - [:busts\_in\_silhouette: Authors ](#busts_in_silhouette-authors-)
+  - [:telescope: Future Features ](#telescope-future-features-)
+  - [:handshake: Contributing ](#handshake-contributing-)
+  - [:star:️ Show your support ](#star️-show-your-support-)
+  - [:pray: Acknowledgments ](#pray-acknowledgments-)
+  - [:question: FAQ (OPTIONAL) ](#question-faq-optional-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -106,6 +109,9 @@ Not yet deployed ...
 - Twitter: [@KubahoH](https://twitter.com/KubahoH)
 - LinkedIn: [Kubaho Linne Heaven](https://www.linkedin.com/in/kubaho-linne-heaven-78ab37208/)
 
+:bust_in_silhouette: **Yacoubou**
+- GitHub: [@Yacoubou-seidou](https://github.com/Yacoubou-seidou)
+- LinkedIn: [yacoubou-Seidou](https://www.linkedin.com/in/yacoubou-seidou-chaibou/)
 <!-- FUTURE FEATURES -->
 
 ## :telescope: Future Features <a name="future-features"></a><br/>

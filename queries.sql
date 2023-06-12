@@ -159,3 +159,6 @@ ON animals.species_id = species.id
 WHERE vets.name = 'Maisy Smith'
 GROUP BY species.name
 LIMIT 1;
+
+-- Query mus run in >= 1 second
+explain analyze SELECT COUNT(*) FROM visits where animal_id = 4

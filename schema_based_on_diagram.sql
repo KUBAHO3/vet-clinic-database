@@ -9,7 +9,7 @@ CREATE TABLE patients(
 CREATE TABLE medical_histories(
 	id BIGSERIAL NOT NULL PRIMARY KEY,
 	addimited_at TIMESTAMP, 
-	patient_id BIGINT REFERENCES patients (id),
+	patient_id BIGINT REFERENCES patients (id) ON DELETE CASCADE,
     status VARCHAR
 );
 
@@ -24,7 +24,7 @@ CREATE TABLE invoices (
     total_amount DECIMAL,
     generated_at TIMESTAMP,
     payed_at TIMESTAMP,
-    medical_history__id INT REFERENCES medical_histories(id)
+    medical_history__id INT REFERENCES medical_histories(id) ON DELETE CASCADE
 );
 
 CREATE TABLE invoice_items (
@@ -32,13 +32,13 @@ CREATE TABLE invoice_items (
     unit_price DECIMAL,
     quantity INT,
     total_price DECIMAL,
-    invoice_id INT REFERENCES invoices(id),
-    treatment_id INT REFERENCES treatments(id),
+    invoice_id INT REFERENCES invoices(id) ON DELETE CASCADE,
+    treatment_id INT REFERENCES treatments(id) ON DELETE CASCADE,
 );
 
 CREATE TABLE medical_treatments (
-	medical_history_id INTEGER REFERENCES medical_histories(id),
-	treatment_id INTEGER REFERENCES treatments(id)
+	medical_history_id INTEGER REFERENCES medical_histories(id) ON DELETE CASCADE,
+	treatment_id INTEGER REFERENCES treatments(id) ON DELETE CASCADE
 );
 
 CREATE INDEX patient_index ON medical_histories(patient_id);

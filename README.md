@@ -68,6 +68,8 @@ I used a relational database to create the data structure for a vet clinic. I st
 - **join Tables**
 - **Insert data in table**
 - **Use Rollback, Savepoint, and commit**
+- **Use Many-to-many relations**
+- **Use FK indexes**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
